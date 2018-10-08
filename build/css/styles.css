@@ -145,6 +145,22 @@ button {
   border: none;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* exo-2-300 - latin_cyrillic */
 
 @font-face {
@@ -293,4 +309,20 @@ button {
   color: #222222;
   font-family: "Exo 2";
   font-size: 25px;
+}
+
+.container {
+  padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 40px;
+  }
 }
