@@ -1,15 +1,15 @@
 .c-section__title {
+  font-size: 24px;
   color: $calendar-title-color;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 25px;
+  font-family: $primary-font-stack;
+  text-align: center;
 
   &::after {
     content: '';
-    display: inline-block;
+    display: block;
     height: 1px;
-    width: 275px;
-    margin-top: 12px;
-    margin-bottom: 23px;
+    width: 254px;
+    margin: 40px auto 23px;
     background-color: $secondary-white-color;
     opacity: 0.2;
   }
