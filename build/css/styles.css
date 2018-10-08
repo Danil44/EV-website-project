@@ -313,6 +313,7 @@ img {
   font-size: 25px;
 }
 
+<<<<<<< HEAD
 .c-section__title::after {
   content: '';
   display: inline-block;
@@ -331,4 +332,20 @@ img {
 .container {
   padding: 0 8px;
   width: 100%;
+=======
+.container {
+  padding: 0 10px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 40px;
+  }
+>>>>>>> master
 }
