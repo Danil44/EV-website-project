@@ -291,6 +291,10 @@ button {
 
 .c-section__title {
   color: #222222;
+<<<<<<< HEAD
   font-family: 'Exo 2', sans-serif;
+=======
+  font-family: "Exo 2";
+>>>>>>> master
   font-size: 25px;
 }
