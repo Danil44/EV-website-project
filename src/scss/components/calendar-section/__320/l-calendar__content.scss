@@ -1,0 +1,16 @@
+.l-calendar__content::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 254px;
+  margin: 40px auto 23px;
+  background-color: $secondary-white-color;
+  opacity: 0.2;
+}
+
+.l-calendar__content:last-of-type::after {
+  content: '';
+  height: 0;
+  width: 0;
+  margin: 0;
+}

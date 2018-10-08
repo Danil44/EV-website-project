@@ -1,0 +1,16 @@
+.c-section__title {
+  font-size: 24px;
+  color: $calendar-title-color;
+  font-family: $primary-font-stack;
+  text-align: center;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 254px;
+    margin: 40px auto 23px;
+    background-color: $secondary-white-color;
+    opacity: 0.2;
+  }
+}

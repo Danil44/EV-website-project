@@ -322,25 +322,85 @@ img {
   opacity: 0.2;
 }
 
-.l-calendar__box::after {
+.l-picture-box {
+  margin-bottom: 18px;
+}
+
+.c-calendar__title {
+  font-size: 20px;
+  color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
+  margin-bottom: 13px;
+}
+
+.c-calendar__date {
+  font-size: 13px;
+  color: #888888;
+  font-family: "Exo 2", sans-serif;
+  margin-bottom: 22px;
+}
+
+.l-calendar__content::after {
   content: '';
   display: block;
   height: 1px;
-  width: 275px;
+  width: 254px;
+  margin: 40px auto 23px;
   background-color: #777777;
   opacity: 0.2;
-  margin: 56px auto 42px;
 }
 
-.l-calendar__box:last-of-type::after {
+.l-calendar__content:last-of-type::after {
   content: '';
-  margin: 0;
   height: 0;
   width: 0;
+  margin: 0;
+}
+
+.c-calendar__button {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding: 17px 58px;
+  background-color: #17becf;
+  cursor: pointer;
+}
+
+.c-calendar__desc {
+  font-size: 15px;
+  line-height: 29px;
+  color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
+  margin-bottom: 25px;
+}
+
+.c-organizer-link {
+  color: #17becf;
+  cursor: pointer;
+}
+
+.c-section__title {
+  font-size: 24px;
+  color: #222222;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+}
+
+.c-section__title::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 254px;
+  margin: 40px auto 23px;
+  background-color: #777777;
+  opacity: 0.2;
 }
 
 .l-picture-box {
   margin-bottom: 18px;
+  width: 321px;
 }
 
 .c-calendar__title {
@@ -381,17 +441,92 @@ img {
   cursor: pointer;
 }
 
+.c-calendar__date {
+  font-size: 13px;
+  color: #888888;
+  font-family: "Exo 2", sans-serif;
+  margin-bottom: 22px;
+}
+
 .container {
   padding: 0 10px;
 }
 
 @media (min-width: 768px) {
+  .l-calendar__content {
+    width: 306px;
+  }
+
   .container {
     padding: 0 18px;
   }
 }
 
 @media (min-width: 1200px) {
+  .calendar-section {
+    margin-right: 144px;
+    margin-bottom: 100px;
+  }
+
+  .c-section__title {
+    font-size: 40px;
+    text-align: left;
+  }
+
+  .c-section__title::after {
+    content: "";
+    width: 925px;
+    margin: 73px 0 35px;
+  }
+
+  .l-picture-box {
+    margin-top: 7px;
+    margin-right: 50px;
+  }
+
+  .c-calendar__title {
+    font-size: 24px;
+    margin-bottom: 41px;
+  }
+
+  .l-calendar__content {
+    width: 926px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .l-calendar__content::after {
+    content: '';
+    width: 925px;
+    margin: 73px 0 35px;
+  }
+
+  .c-calendar__button {
+    font-size: 13px;
+    padding: 18px 24px;
+    transition: 0.2s linear;
+  }
+
+  .c-calendar__button:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.2s linear;
+  }
+
+  .c-calendar__desc {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 37px;
+  }
+
+  .c-calendar__desc--margin {
+    margin-left: 44px;
+  }
+
+  .l-calendar__info {
+    width: 496px;
+  }
+
   .container {
     padding: 0 40px;
   }
