@@ -305,15 +305,36 @@ img {
   /* Legacy iOS */
 }
 
-.theme-list {
-  width: 480px;
-  height: 540px;
-  border: 1px solid #f0f0f0;
-  padding-left: 61px;
-  padding-top: 41px;
+.c-section__title {
+  color: #222222;
+  font-family: "Exo 2";
+  font-size: 25px;
 }
 
-.button {
+.theme-list {
+  width: 380px;
+  border: 1px solid #f0f0f0;
+  padding-left: 8px;
+  padding-top: 41px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme-list__wrapper {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme-list__name {
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: #78787a;
+}
+
+.theme-list__button {
   width: 360px;
   height: 50px;
   display: flex;
@@ -400,24 +421,12 @@ img {
   margin-left: 14px;
 }
 
-.c-section__title {
-  color: #222222;
-  font-family: "Exo 2";
-  font-size: 25px;
-}
-
-.container {
-  padding: 0 10px;
-}
-
 @media (min-width: 768px) {
-  .container {
-    padding: 0 18px;
+  .theme-list {
+    width: 720px;
   }
-}
 
-@media (min-width: 1200px) {
-  .container {
-    padding: 0 40px;
+  .theme-list__name {
+    font-size: 20px;
   }
 }
