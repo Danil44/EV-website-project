@@ -75,7 +75,56 @@ details,
 embed,
 figure,
 figcaption,
-footer,
+/* footer */
+.footer{
+  background-color: #18bed0;
+  max-height: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-logo{
+  color: #aee8ef;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding-top: 65px; 
+  padding-bottom: 20px; 
+  font-family: 'Montserrat-SemiBold';
+}
+.social{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+.social a {
+  color: #0f0101 ;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Exo2-SemiBold';
+}
+.twitter{
+  padding: 5px 24px;
+  border-right: #12818e solid 1px;
+  border-left: #12818e solid 1px;
+}
+.facebook{
+  padding-right: 24px;
+}
+.instagram{
+  padding-left: 24px;
+}
+.social a:hover{
+color: #00ffff;
+}
+.bot{
+  padding-top: 20px;
+  padding-bottom: 65px;
+  color: #12818e;
+  font-size: 13px;
+  font-family: 'Exo2-Regular';
+}
+/* footer*/
 header,
 hgroup,
 menu,
