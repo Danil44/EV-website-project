@@ -1,12 +1,5 @@
-.c-calendar__desc {
-  font-size: 15px;
-  line-height: 29px;
-  color: $calendar-desc-color;
-  font-family: $primary-font-stack;
-  margin-bottom: 25px;
-}
-
-.c-organizer-link {
-  color: $link-color;
-  cursor: pointer;
+@media (min-width:768px) {
+  .c-calendar__desc {
+    font-size: 18px;
+  }
 }

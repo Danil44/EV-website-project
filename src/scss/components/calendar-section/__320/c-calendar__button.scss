@@ -4,7 +4,8 @@
   color: $primary-white-color;
   font-family: $calendar-btn-font;
   font-weight: bold;
-  padding: 17px 58px;
+  padding: 15px 56px;
   background-color: $calendar-btn-color;
   cursor: pointer;
+  border: 2px solid $calendar-btn-color;
 }
