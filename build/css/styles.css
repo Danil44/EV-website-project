@@ -90,34 +90,34 @@ figcaption,
   padding-bottom: 20px; 
   font-family: 'Montserrat-SemiBold';
 }
-.social{
+.footer-social{
   display: flex;
   list-style: none;
   padding: 0;
   justify-content: center;
 }
-.social a {
+.footer-social a {
   color: #0f0101 ;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 13px;
   font-family: 'Exo2-SemiBold';
 }
-.twitter{
+.footer-social-twitter{
   padding: 5px 24px;
   border-right: #12818e solid 1px;
   border-left: #12818e solid 1px;
 }
-.facebook{
+.footer-social-facebook{
   padding-right: 24px;
 }
-.instagram{
+.footer-social-instagram{
   padding-left: 24px;
 }
-.social a:hover{
+.footer-social a:hover{
 color: #00ffff;
 }
-.bot{
+.footer-copyright{
   padding-top: 20px;
   padding-bottom: 65px;
   color: #12818e;
