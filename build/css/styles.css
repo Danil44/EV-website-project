@@ -305,8 +305,7 @@ img {
   /* Legacy iOS */
 }
 
-.link,
-.news__link {
+.link {
   display: block;
   text-decoration: none;
 }
@@ -325,10 +324,10 @@ img {
   padding-top: 69px;
   padding-bottom: 70px;
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #2e2e2e;
   font-weight: 300;
   letter-spacing: 0.03em;
-  color: #2e2e2e;
-  font-family: "Open Sans", sans-serif;
   line-height: 24px;
 }
 
@@ -354,13 +353,18 @@ img {
 }
 
 .news__title {
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  font-family: "Exo 2", sans-serif;
-  line-height: 25px;
-  color: #2e2e2e;
   margin-top: 25px;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-family: "Exo 2", sans-serif;
+  color: #2e2e2e;
+}
+
+.news__link {
+  display: block;
+  text-decoration: none;
 }
 
 .news__desc {
@@ -386,6 +390,13 @@ img {
   line-height: 1.2;
   color: #2e2e2e;
   margin-bottom: 75px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
+  line-height: 1.2;
 }
 
 @media (min-width: 768px) {
@@ -423,13 +434,10 @@ img {
   }
 
   .news__title {
-    font-size: 17px;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    font-family: "Exo 2", sans-serif;
-    line-height: 23px;
-    color: #2e2e2e;
     margin-top: 32px;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
   }
 
   .news__desc {
