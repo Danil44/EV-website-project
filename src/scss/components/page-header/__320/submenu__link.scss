@@ -1,0 +1,8 @@
+.submenu__link {
+  @extend .menu__link;
+  text-transform: none;
+
+  &:active {
+    opacity: 0.8;
+  }
+}
