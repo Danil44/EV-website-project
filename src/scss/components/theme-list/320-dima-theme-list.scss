@@ -1,0 +1,119 @@
+.theme-list{
+    width: 380px;
+    border: 1px solid #f0f0f0;
+    padding-left: 8px;
+    padding-top: 41px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.theme-list__wrapper{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.theme-list__name{
+    font-family: $primary-font-stack;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 35px;
+    color: $theme-list__name;
+}
+
+.theme-list__button{
+    width: 360px;
+    height: 50px;
+    display: flex;
+    margin-bottom: 29px
+}
+
+.button__button-arrow{
+    width: 59px;
+    height: 50px;
+}
+
+// начались модификаторы цвета
+
+.button__button-arrow_blue{
+    background: #e4eef7;
+}
+
+.button__button-arrow_orange{
+    background: #fbe6e1;
+}
+
+.button__button-arrow_light-blue{
+    background: #d9f1f3;
+}
+
+.button__button-arrow_purple{
+    background: #f0e1f8;
+}
+
+.button__button-arrow_red{
+    background: #fbe2e5;
+}
+
+.button__button-arrow_green{
+    background: #dbf3e5;
+}
+
+// закончились модификаторы цвета
+
+
+.button__button-name{
+    width: 300px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 12px;
+}
+
+.position-arrow{
+    margin-left: 12px;
+    margin-top: 19px;
+    width: 34px;
+    height: 9px;
+}
+
+// начались модификаторы цвета
+
+.button__button-name_blue{
+    background: #f1f6fa;
+    color: #78b7ea;
+}
+
+.button__button-name_orange{
+    background: #fcf2f0;
+    color: #fe6c47;
+}
+
+.button__button-name_light-blue{
+    background: #edf8fa;
+    color: #26c2cf;
+}
+
+.button__button-name_purple{
+    background: #f7effc;
+    color: #ba64e9;
+}
+
+.button__button-name_red{
+    background: #fcf0f0;
+    color: #fb4e50;
+}
+
+.button__button-name_green{
+    background: #edf8f2;
+    color: #18c665;
+}
+
+
+// закончились модификаторы цвета
+
+.theme-list__text{
+    margin-top: 19px;
+    margin-left: 14px;
+}
