@@ -15,12 +15,11 @@
       margin: 85px 0 35px;
     }
   }
-}
 
-
-.l-calendar__content:last-of-type::after {
-  content: '';
-  margin: 0;
-  height: 0;
-  width: 0;
+  .l-calendar__content:last-of-type::after {
+    content: '';
+    margin: 0;
+    height: 0;
+    width: 0;
+  }
 }

@@ -1,9 +1,22 @@
-.header {
+.l-header {
   position: relative;
-}
 
-.menu {
-  right: -24px;
-  top: 0;
-  position: absolute;
+  &:after {
+    content: '';
+    display: block;
+    width: auto;
+    height: 1px;
+    opacity: 0.1;
+    background-color: $primary-dark-color;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 88px;
+  }
+}
+@media (max-width: 1489px) {
+  .l-menu {
+    right: -24px;
+    top: 0;
+    position: absolute;
+  }
 }
