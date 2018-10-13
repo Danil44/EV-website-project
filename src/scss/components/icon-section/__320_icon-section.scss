@@ -1,0 +1,23 @@
+.container {
+  margin: 0 auto;
+  outline: 1px red solid;
+}
+
+.icon-section-list {
+  display: flex;
+  flex-direction: column;
+  font-family: "Exo 2", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #2e2e2e;
+  color: red;
+}
+
+.icon-section-list::before {
+  width: 97px;
+  height: 97px;
+  background-image: url(../img/icon-section/conversation.svg);
+  background-position: cover;
+  background-repeat: no-repeat;
+}
