@@ -1,0 +1,16 @@
+@media (min-width:1200px) {
+  .c-section__title {
+    text-align: left;
+    margin-bottom: 0;
+
+    &::after {
+      content: "";
+      display: block;
+      background-color: $secondary-white-color;
+      opacity: 0.2;
+      height: 1px;
+      width: 925px;
+      margin: 73px 0 35px;
+    }
+  }
+}
