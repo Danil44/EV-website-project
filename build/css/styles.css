@@ -305,11 +305,6 @@ img {
   /* Legacy iOS */
 }
 
-.link {
-  display: block;
-  text-decoration: none;
-}
-
 .c-section__title {
   color: #222222;
   font-family: "Exo 2";
@@ -320,83 +315,85 @@ img {
   padding: 0 10px;
 }
 
-.news {
-  padding-top: 69px;
-  padding-bottom: 70px;
-  font-size: 14px;
+.title {
+  font-family: "Exo 2", sans-serif;
+  color: #2e2e2e;
+}
+
+.main-text {
   font-family: "Open Sans", sans-serif;
   color: #2e2e2e;
   font-weight: 300;
-  letter-spacing: 0.03em;
   line-height: 24px;
 }
 
-.news__list {
-  display: flex;
-}
-
-.news__item {
-  width: 100%;
-}
-
-.news__video {
-  width: 100%;
-  height: 0;
-  padding-bottom: 30%;
-  position: relative;
-}
-
-.news__iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-.news__title {
-  margin-top: 25px;
-  font-size: 24px;
-  line-height: 25px;
-  letter-spacing: 0.05em;
-  font-weight: 600;
-  font-family: "Exo 2", sans-serif;
-  color: #2e2e2e;
-}
-
-.news__link {
-  display: block;
-  text-decoration: none;
-}
-
-.news__desc {
-  margin-top: 16px;
-  overflow: hidden;
-  height: 48px;
-  text-overflow: ellipsis;
-}
-
-.news__date {
-  margin-top: 12px;
-  font-weight: 300;
-  font-size: 13px;
-  letter-spacing: normal;
-}
-
 .section__title {
-  font-size: 30px;
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: 0.01em;
-  font-family: "Exo 2", sans-serif;
-  line-height: 1.2;
-  color: #2e2e2e;
   margin-bottom: 75px;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
   letter-spacing: 0.01em;
-  color: #2e2e2e;
-  font-family: "Exo 2", sans-serif;
   line-height: 1.2;
+}
+
+.prev {
+  width: 100%;
+  height: 100px;
+  background: olivedrab;
+}
+
+.news-section {
+  padding-top: 67px;
+  padding-bottom: 70px;
+}
+
+.news-section__list {
+  display: flex;
+}
+
+.news-section__item {
+  width: 100%;
+}
+
+.news-section__video {
+  width: 100%;
+  height: 0;
+  padding-bottom: 29.7%;
+  position: relative;
+}
+
+.news-section__iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.news-section__title {
+  margin-top: 24px;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.news-section__link {
+  display: block;
+  text-decoration: none;
+}
+
+.news-section__desc {
+  margin-top: 16px;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  overflow: hidden;
+  height: 48px;
+  text-overflow: ellipsis;
+}
+
+.news-section__date {
+  margin-top: 11px;
+  font-size: 13px;
+  letter-spacing: normal;
 }
 
 @media (min-width: 768px) {
@@ -404,64 +401,64 @@ img {
     padding: 0 24px;
   }
 
-  .news__item {
+  .news-section__item {
     max-width: 720px;
   }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1490px) {
   .container {
     padding: 0 10px;
-  }
-
-  .news {
-    padding-top: 83px;
-    padding-bottom: 94px;
-  }
-
-  .news__list {
-    width: 1490px;
-    flex-direction: row;
-    margin: 0 auto;
-  }
-
-  .news__item:not(:nth-child(3n)) {
-    margin-right: 30px;
-  }
-
-  .news__video {
-    padding-bottom: 76%;
-  }
-
-  .news__title {
-    margin-top: 32px;
-    font-size: 24px;
-    line-height: 25px;
-    letter-spacing: 0.05em;
-  }
-
-  .news__desc {
-    margin-top: 24px;
-    height: 72px;
-  }
-
-  .news__date {
-    margin-top: 23px;
   }
 
   .section__title {
     font-size: 40px;
     margin-bottom: 88px;
   }
+
+  .news-section {
+    padding-top: 83px;
+    padding-bottom: 104px;
+  }
+
+  .news-section__list {
+    max-width: 1490px;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+
+  .news-section__item:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
+
+  .news-section__video {
+    padding-bottom: 76%;
+  }
+
+  .news-section__title {
+    margin-top: 31px;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.055em;
+  }
+
+  .news-section__desc {
+    margin-top: 25px;
+    height: 72px;
+  }
+
+  .news-section__date {
+    margin-top: 23px;
+  }
 }
 
-@media (max-width: 1499px) {
-  .news__list {
+@media (max-width: 1489px) {
+  .news-section__list {
     flex-direction: column;
     align-items: center;
   }
 
-  .news__item:not(:last-child) {
-    margin-bottom: 76px;
+  .news-section__item:not(:last-child) {
+    margin-bottom: 73px;
   }
 }
