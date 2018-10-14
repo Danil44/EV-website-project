@@ -5,13 +5,21 @@
 @import 'fonts';
 @import 'helpers/variables';
 
+
 // COMPONENTS //
 @import 'components/calendar-section/index';
 @import 'components/container';
+<<<<<<< HEAD
 
 @import 'components/icon-section/index_icon_section';
 // @import 'components/
 // @import 'components/
+=======
+@import 'components/news-section/index';
+@import 'components/page-header/index';
+@import 'components/theme-list/320-dima-theme-list';
+@import 'components/theme-list/768-dima-theme-list';
+>>>>>>> master
 // @import 'components/
 // @import 'components/
 // @import 'components/
