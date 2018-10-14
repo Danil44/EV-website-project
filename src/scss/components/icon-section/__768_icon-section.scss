@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+  .icon-section--list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icon-section-item {
+    width: 300px;
+    height: 150px;
+    padding-top: 5px;
+  }
+
+  .icon-section-item:not(:nth-child(even)) {
+    border-right: 1px rgb(241, 241, 241) solid;
+  }
+
+  .icon-section-item:nth-child(-n + 2) {
+    border-bottom: 1px rgb(241, 241, 241) solid;
+  }
+
+  .icon-section-item:nth-child(n + 3) {
+    padding-top: 30px;
+  }
+
+  .icon-section-item__name {
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  .icon-section-item__svg {
+    margin-bottom: 20px;
+  }
+
+  .icon-section-item__svg--last{
+    margin-bottom: 35px;
+  }
+}
