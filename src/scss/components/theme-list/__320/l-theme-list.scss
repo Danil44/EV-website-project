@@ -1,12 +1,13 @@
 .l-theme-list_box {
   padding-top: 41px;
   padding-bottom: 77px;
-  width: 300px;
 }
+
 @media (max-width: 1489px) {
   .l-theme-list {
     margin-left: auto;
     margin-right: auto;
+    max-width: 349px;
   }
 }
 

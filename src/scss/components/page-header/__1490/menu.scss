@@ -4,5 +4,13 @@
     display: -ms-flex;
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .l-menu {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
   }
 }
