@@ -631,13 +631,6 @@ a {
   opacity: 0.8;
 }
 
-.l-submenu-list {
-  padding-top: 34px;
-  margin-left: 17px;
-  padding-bottom: 34px;
-  display: none;
-}
-
 .c-logo {
   font-size: 19px;
   color: #2e2e2e;
@@ -661,30 +654,6 @@ a {
   background-color: #000000;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: 88px;
-}
-
-.c-submenu__item {
-  padding-bottom: 24px;
-}
-
-.c-submenu__item:last-child {
-  padding: 0;
-}
-
-.c-submenu__link {
-  text-transform: none;
-}
-
-.c-submenu__link:active {
-  opacity: 0.8;
-}
-
-.l-submenu-list {
-  padding-top: 34px;
-  margin-left: 17px;
-  padding-bottom: 34px;
-  display: none;
 }
 
 .c-button__button-arrow {
@@ -1080,21 +1049,100 @@ a {
     display: none;
   }
 
+  .c-menu__item {
+    position: relative;
+    margin-right: 71px;
+  }
+
+  .c-menu__item:first-child {
+    margin-right: 96px;
+  }
+
+  .c-menu__item:nth-child(3) {
+    margin-right: 69px;
+  }
+
   .c-menu__item:nth-child(4) {
-    margin-right: 281px;
+    margin-right: 225px;
+  }
+
+  .c-menu__item:nth-child(5) {
+    margin-right: 0;
+    position: relative;
+  }
+
+  .c-menu__item:nth-child(5)::before {
+    background-image: url("../../../../img/round-account-button-with-user-inside.svg");
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    -webkit-transform: translate(-45px, 3px);
+    transform: translate(-45px, 3px);
+  }
+
+  .c-menu__item:nth-child(5)::after {
+    content: '\007C';
+    display: inline-block;
+    width: 0;
+    background-color: #777777;
+    margin: 0 15px 0 16px;
+  }
+
+  .c-menu__item:nth-child(6) {
+    margin-right: 72px;
+    position: relative;
+  }
+
+  .c-menu__item:nth-child(6)::after {
+    background-image: url(../../../../img/information.svg);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    -webkit-transform: translate(19px, -3px);
+    transform: translate(19px, -3px);
   }
 
   .c-menu__item:last-child {
     display: none;
   }
 
+  .c-menu__item:first-child::after {
+    background-image: url("../../../../img/down-chevron.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 10px;
+    fill: #000000;
+    margin-left: 14px;
+  }
+
+  .entry_elements,
+  .c-menu__item:nth-child(5)::before,
+  .c-menu__item:nth-child(6)::after,
+  .c-menu__item:first-child::after {
+    content: '';
+    display: inline-block;
+    background-repeat: no-repeat;
+  }
+
   .c-menu__link,
   .c-submenu__link {
     font-size: 13px;
     letter-spacing: 1px;
-    font-weight: 700;
+    font-weight: bold;
     color: #222222;
     opacity: 0.6;
+    transition: 0.2s linear;
+  }
+
+  .c-menu__link:hover,
+  .c-submenu__link:hover {
+    transition: 0.2s linear;
+    opacity: 1;
   }
 
   .c-menu__link:hover .c-submenu-list,
@@ -1102,11 +1150,40 @@ a {
     display: none;
   }
 
+  .c-menu__link_desktop {
+    text-transform: none;
+    font-size: 15px;
+    color: #888888;
+  }
+
   .l-menu__list {
     display: -ms-flex;
     display: flex;
-    margin: 0;
-    justify-content: center;
+  }
+
+  .c-submenu__item {
+    padding-bottom: 16px;
+    width: 170px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .c-submenu__item:first-child {
+    padding-top: 19px;
+  }
+
+  .c-submenu__item:last-child {
+    padding-bottom: 26px;
+  }
+
+  .l-submenu-list {
+    position: absolute;
+    width: 215px;
+    background-color: #ffffff;
+    top: 23px;
+    z-index: 0;
+    -webkit-transform: translateX(-36%);
+    transform: translateX(-36%);
   }
 
   .l-header {
@@ -1114,6 +1191,9 @@ a {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .l-menu {
@@ -1162,17 +1242,15 @@ a {
   }
 }
 
-@media (max-width: 1490px) {
-  .container {
-    padding: 0 24px;
-  }
-}
-
 @media (max-width: 1489px) {
   .calendar-section {
     margin-left: auto;
     margin-right: auto;
     max-width: 720px;
+  }
+
+  .container {
+    padding: 0 24px;
   }
 
   .icon-section--list {
@@ -1239,6 +1317,13 @@ a {
 
   .menu__list--open {
     height: auto;
+  }
+
+  .l-submenu-list {
+    padding-top: 34px;
+    margin-left: 17px;
+    padding-bottom: 34px;
+    display: none;
   }
 
   .l-menu {
