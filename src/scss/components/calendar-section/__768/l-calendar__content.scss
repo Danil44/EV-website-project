@@ -2,4 +2,8 @@
   .l-calendar__content {
     width: 100%;
   }
+
+  .l-calendar__content:last-of-type::after {
+    width: 720px;
+  }
 }

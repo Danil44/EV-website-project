@@ -1,15 +1,8 @@
 .section__title {
   margin-bottom: 75px;
-  font-size: 30px; 
-  font-weight: 400; 
-  text-align: center; 
-  letter-spacing: 0.01em; 
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.01em;
   line-height: 1.2;
-}
-
-@media (min-width: 1490px) {
-  .section__title {
-    font-size: 40px;
-    margin-bottom: 88px;
-  }
 }

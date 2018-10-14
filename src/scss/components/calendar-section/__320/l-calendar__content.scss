@@ -1,3 +1,15 @@
 .l-calendar__content {
   margin-bottom: 72px;
 }
+
+.l-calendar__content:last-of-type::after {
+  content: "";
+  display: block;
+  background-color: $secondary-white-color;
+  opacity: 0.2;
+  height: 1px;
+  width: 290px;
+  margin: 74px 0 69px;
+  margin-right: auto;
+  margin-left: auto;
+}

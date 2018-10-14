@@ -7,6 +7,10 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+
+  @media (max-width: 1489px) {
+    max-width: 600px;
+  }
 }
 
 .icon-section-item__name {
