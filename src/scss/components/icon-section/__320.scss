@@ -1,0 +1,38 @@
+.icon-section {
+  padding: 50px 0;
+}
+
+.icon-section--list {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.icon-section-item__name {
+  margin: 0 auto;
+  font-family: "Exo 2", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #2e2e2e;
+  text-align: center;
+}
+
+.icon-section-item__name:hover,
+.icon-section-item__name:focus {
+  cursor: pointer;
+}
+
+.icon-section-item {
+  align-content: center;
+  padding-top: 20px;
+}
+
+.icon-section-item__svg {
+  display: block;
+  fill: #18bed0;
+  text-align: center;
+  height: 75px;
+  margin-bottom: 10px;
+}
