@@ -1,13 +1,25 @@
 @media (min-width: 1490px) {
   .c-menu__link {
-    font-family: $primary-font-stack;
-    color: $primary-dark-color;
-    font-size: 14px;
-    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: $header-text-color;
+    opacity: 0.6;
+    transition: 0.2s linear;
+
+    &:hover {
+      transition: 0.2s linear;
+      opacity: 1;
+    }
 
     &:hover .c-submenu-list {
       display: none;
     }
+  }
 
+  .c-menu__link_desktop {
+    text-transform: none;
+    font-size: 15px;
+    color: $entry-color;
   }
 }
