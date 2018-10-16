@@ -1,11 +1,7 @@
 .container {
   padding: 0 10px;
 
-  @media (min-width: 768px) {
+  @media (max-width: 1489px) {
     padding: 0 24px;
-  }
-
-  @media (min-width: 1200px) {
-    padding: 0 40px
   }
 }

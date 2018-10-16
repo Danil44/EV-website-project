@@ -1,0 +1,40 @@
+.l-theme-list_box {
+  padding-top: 41px;
+  padding-bottom: 77px;
+}
+
+@media (max-width: 1489px) {
+  .l-theme-list {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 349px;
+  }
+}
+
+.c-theme-list__name {
+  font-family: $primary-font-stack;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 35px;
+  color: $theme-list__name;
+}
+
+.c-theme-list__text {
+  margin-top: 19px;
+  margin-left: 14px;
+}
+
+.l-theme-list__button {
+  height: 50px;
+  display: flex;
+  margin-bottom: 29px;
+  cursor: pointer;
+
+  &:active {
+    opacity: 0.7;
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}

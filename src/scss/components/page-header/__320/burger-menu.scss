@@ -1,14 +1,14 @@
-.menu-toggle {
+.l-menu-toggle {
   padding: 1em;
   position: absolute;
-  top: 24px;
+  top: 23px;
   right: 24px;
   cursor: pointer;
 }
 
-.burger {
+.c-burger {
   background-color: #444444;
-  height: 3px;
+  height: 2px;
   width: 40px;
   position: absolute;
   z-index: 3;
@@ -19,29 +19,29 @@
     content: '';
     display: block;
     background-color: #444444;
-    height: 3px;
+    height: 2px;
     width: 40px;
     transition: all 0.5s linear;
   }
 
   &::before {
-    transform: translateY(-14px);
+    transform: translateY(-10px);
   }
 
   &::after {
-    transform: translateY(11px);
+    transform: translateY(8px);
   }
 }
 
 
-.open .burger {
+.open .c-burger {
   transform: rotate(45deg);
 }
 
-.open .burger::before {
+.open .c-burger::before {
   opacity: 0;
 }
 
-.open .burger::after {
-  transform: translateY(-3px) rotate(-90deg);
+.open .c-burger::after {
+  transform: translateY(-2px) rotate(-90deg);
 }

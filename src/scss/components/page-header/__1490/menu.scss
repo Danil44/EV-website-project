@@ -1,0 +1,19 @@
+@media (min-width: 1490px) {
+  .l-header {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 1800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .l-menu {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+  }
+}
