@@ -1,0 +1,43 @@
+@media (min-width: 1490px) {
+  .forum {
+    width: 1490px;
+    padding-bottom: 95px;
+    padding-top: 90px;
+
+    &__title {
+      margin-bottom: 97px;
+      font-size: 40px;
+    }
+  
+    &__item {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    &__list {
+      margin-bottom: 30px;
+
+      &:nth-child(n+4) {
+        margin-bottom: 0;
+      }
+    }
+  
+    &__image {
+      width: 476px;
+      height: 363px;
+    }
+  
+    &__inbox {
+      width: 466px;
+      height: 353px;
+      line-height: 353px;
+      font-size: 16px
+    }
+  
+    &__background {
+      width: 476px;
+      height: 363px;
+    } 
+  }
+}
