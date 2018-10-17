@@ -480,6 +480,72 @@ a {
   margin-bottom: 10px;
 }
 
+/* footer */
+
+.footer {
+  background-color: #18bed0;
+  max-height: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo {
+  color: #aee8ef;
+  font-size: 19px;
+  text-transform: uppercase;
+  padding-top: 65px;
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.footer-social {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.footer-social__link {
+  color: #0f0101;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: "Exo 2", sans-serif;
+  opacity: 0.5;
+  transition: 0.2s linear;
+}
+
+.footer-social__item:nth-child(2) {
+  padding: 0 24px;
+  border-right: #12818e solid 1px;
+  border-left: #12818e solid 1px;
+}
+
+.footer-social__item:first-child {
+  padding-right: 24px;
+}
+
+.footer-social__item:last-child {
+  padding-left: 24px;
+}
+
+.footer-social__link:hover {
+  opacity: 0.8;
+  transition: 0.2s linear;
+}
+
+.footer-copyright {
+  padding-top: 20px;
+  padding-bottom: 65px;
+  color: #12818e;
+  font-size: 13px;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* footer*/
+
 .title {
   font-family: "Exo 2", sans-serif;
   color: #2e2e2e;
@@ -689,7 +755,7 @@ a {
 }
 
 .forum__list:hover {
-  box-shadow: 0px 7px 24px 0px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.18);
 }
 
 .forum__list:nth-child(n+6) {
@@ -852,7 +918,7 @@ a {
 
 @media (min-width: 768px) {
   .banner-section--background {
-    height: 580px;
+    min-height: 580px;
   }
 
   .banner-section__logo {
