@@ -736,6 +736,7 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
   display: block;
+  cursor: pointer;
 }
 
 .l-header {
@@ -1122,7 +1123,7 @@ a {
 
 @media (min-width: 1200px) {
   .banner-section--background {
-    background-image: url("../../../img/banner-bgrnd_1920x817.jpg");
+    background-image: url("../img/banner-bgrnd_1920x817.jpg");
     width: 100%;
     min-height: 817px;
   }
@@ -1358,7 +1359,7 @@ a {
 
   .c-menu__link,
   .c-submenu__link {
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 1px;
     font-weight: bold;
     color: #222222;
@@ -1379,7 +1380,6 @@ a {
 
   .c-menu__link_desktop {
     text-transform: none;
-    font-size: 15px;
     color: #888888;
   }
 
@@ -1488,7 +1488,7 @@ a {
 
 @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 2dppx), (min-width: 1200px) and (min-resolution: 192dpi) {
   .banner-section--background {
-    background-image: url("../../../img/banner-bgrnd_1920x817@2x.jpg");
+    background-image: url("../img/banner-bgrnd_1920x817@2x.jpg");
   }
 }
 
