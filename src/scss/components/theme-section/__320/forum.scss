@@ -25,7 +25,6 @@
   cursor: pointer;
   transition: 0.2s linear;
 
-
   &:hover {
     box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.18);
   }
@@ -38,11 +37,12 @@
     opacity: 0;
   }
 }
-
-.forum__image {
-  display: block;
-  width: 300px;
-  height: 250px;
+@media(max-width:767px) {
+  .forum__image {
+    display: block;
+    max-width: 300px;
+    height: 250px;
+  }
 }
 
 .forum__inbox {

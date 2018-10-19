@@ -632,8 +632,6 @@ a {
   margin-top: 16px;
   font-size: 14px;
   letter-spacing: 0.03em;
-  overflow: hidden;
-  height: 48px;
   text-overflow: ellipsis;
 }
 
@@ -796,12 +794,6 @@ a {
 
 .forum__list:hover .forum__background {
   opacity: 0;
-}
-
-.forum__image {
-  display: block;
-  width: 300px;
-  height: 250px;
 }
 
 .forum__inbox {
@@ -1590,12 +1582,18 @@ a {
 
 @media (max-width: 767px) {
   .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 
   .icon-section__item:not(:last-child) {
     padding-bottom: 100px;
+  }
+
+  .forum__image {
+    display: block;
+    max-width: 300px;
+    height: 250px;
   }
 }
 
