@@ -311,7 +311,7 @@ a {
 }
 
 .banner-section--background {
-  background-image: url("../../../img/banner-bgrnd_772x580.jpg");
+  background-image: url("../img/banner-bgrnd_772x580.jpg");
   min-height: 315px;
   max-height: 580px;
   background-size: cover;
@@ -501,7 +501,7 @@ a {
 .footer:after {
   content: '';
   display: inline-block;
-  background-image: url("../../../img/right-arrow-white.svg");
+  background-image: url("../img/right-arrow-white.svg");
   background-repeat: no-repeat;
   background-position: 12px 24px;
   width: 62px;
@@ -899,7 +899,7 @@ a {
 }
 
 .button__button-name_blue::before {
-  background-image: url("../../../../img/right-arrow-acva.svg");
+  background-image: url("../img/right-arrow-acva.svg");
   background-color: #e4eef7;
 }
 
@@ -909,7 +909,7 @@ a {
 }
 
 .button__button-name_orange::before {
-  background-image: url("../../../../img/right-arrow-orange.svg");
+  background-image: url("../img/right-arrow-orange.svg");
   background-color: #fbe6e1;
 }
 
@@ -919,7 +919,7 @@ a {
 }
 
 .button__button-name_light-blue::before {
-  background-image: url("../../../../img/right-arrow-light-blue.svg");
+  background-image: url("../img/right-arrow-light-blue.svg");
   background-color: #d9f1f3;
 }
 
@@ -929,7 +929,7 @@ a {
 }
 
 .button__button-name_purple::before {
-  background-image: url("../../../../img/right-arrow-purple.svg");
+  background-image: url("../img/right-arrow-purple.svg");
   background-color: #f0e1f8;
 }
 
@@ -939,7 +939,7 @@ a {
 }
 
 .button__button-name_red::before {
-  background-image: url("../../../../img/right-arrow-red.svg");
+  background-image: url("../img/right-arrow-red.svg");
   background-color: #fbe2e5;
 }
 
@@ -949,7 +949,7 @@ a {
 }
 
 .button__button-name_green::before {
-  background-image: url("../../../../img/right-arrow-green.svg");
+  background-image: url("../img/right-arrow-green.svg");
   background-color: #dbf3e5;
 }
 
@@ -1301,7 +1301,7 @@ a {
   }
 
   .c-menu__item:nth-child(5)::before {
-    background-image: url("../../../../img/round-account-button-with-user-inside.svg");
+    background-image: url("../img/round-account-button-with-user-inside.svg");
     background-repeat: no-repeat;
     width: 22px;
     height: 22px;
@@ -1325,7 +1325,7 @@ a {
   }
 
   .c-menu__item:nth-child(6)::after {
-    background-image: url("../../../../img/information.svg");
+    background-image: url("../img/information.svg");
     background-repeat: no-repeat;
     width: 22px;
     height: 22px;
@@ -1339,7 +1339,7 @@ a {
   }
 
   .c-menu__item:first-child::after {
-    background-image: url("../../../../img/down-chevron.svg");
+    background-image: url("../img/down-chevron.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 18px;
@@ -1615,6 +1615,6 @@ a {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx), (min-resolution: 192dpi) {
   .banner-section--background {
-    background-image: url("../../../img/banner-bgrnd_772x580@x2.jpg");
+    background-image: url("../img/banner-bgrnd_772x580@x2.jpg");
   }
 }
