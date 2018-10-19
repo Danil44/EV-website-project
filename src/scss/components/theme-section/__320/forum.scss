@@ -1,16 +1,15 @@
 .forum {
-  width: 320px;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin: auto;
 }
 
 .forum__title {
   text-align: center;
   margin-bottom: 40px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   font-family: $primary-font-stack;
+  color: $secondary-dark-color;
 }
 
 .forum__item {
@@ -24,6 +23,7 @@
   list-style: none;
   margin-bottom: 30px;
   cursor: pointer;
+  transition: 0.2s linear;
 
 
   &:hover {
@@ -35,7 +35,7 @@
   }
 
   &:hover .forum__background {
-    background: none;
+    opacity: 0;
   }
 }
 
@@ -72,9 +72,11 @@
 
 .forum__background {
   position: absolute;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(42, 42, 42, 0.75));
+  background: linear-gradient(to top, rgb(0, 0, 0,), rgb(42, 42, 42,));
   top: 0;
   left: 0;
   width: 300px;
   height: 250px;
+  opacity: 0.75;
+  transition: 0.2s linear;
 }

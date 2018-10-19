@@ -1,0 +1,10 @@
+@media (min-width: 1200px) {
+  .l-submenu-list {
+    position: absolute;
+    width: 215px;
+    background-color: $primary-white-color;
+    top: 23px;
+    z-index: 1;
+    transform: translateX(-36%);
+  }
+}

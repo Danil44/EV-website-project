@@ -1,10 +1,5 @@
-.l-theme-list_box {
-  padding-top: 41px;
-  padding-bottom: 77px;
-}
-
-@media (max-width: 1489px) {
-  .l-theme-list {
+@media (max-width: 768px) {
+  .l-theme {
     margin-left: auto;
     margin-right: auto;
     max-width: 349px;
@@ -27,7 +22,7 @@
 .l-theme-list__button {
   height: 50px;
   display: flex;
-  margin-bottom: 29px;
+  margin-bottom: 24px;
   cursor: pointer;
 
   &:active {
@@ -35,6 +30,6 @@
   }
 
   &:last-of-type {
-    margin-bottom: 0;
+    padding-bottom: 77px;
   }
 }

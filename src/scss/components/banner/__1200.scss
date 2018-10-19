@@ -3,25 +3,28 @@
     background-image: url("../../../img/banner-bgrnd_1920x817.jpg");
     width: 100%;
     min-height: 817px;
-
     @media (min-resolution: 2dppx), (min-resolution: 192dpi) {
       background-image: url("../../../img/banner-bgrnd_1920x817@2x.jpg");
     }
   }
+
+  .l-banner__box {
+    justify-content: flex-start;
+    height: 817px;
+    margin-left: 165px;
+  }
+
   .banner-section__logo {
-    padding: 267px 0 0 212px;
     text-align: left;
     font-size: 70px;
-    letter-spacing: -1px;
   }
+
   .banner-section__text {
     text-align: left;
     font-size: 23px;
-    padding: 36px 0 0 217px;
     letter-spacing: 1.1px;
     margin-bottom: 44px;
   }
-  .banner-section__btn {
-    margin-left: 213px;
-  }
+
+  .banner-section__btn {}
 }

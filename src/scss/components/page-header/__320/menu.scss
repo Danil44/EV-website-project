@@ -1,24 +1,26 @@
 .l-header {
   position: relative;
-
+  @media (max-width: 1199px) {
+    padding-left: 10px;
+  }
 }
-@media (max-width: 1489px) {
+@media (max-width: 1199px) {
   .l-menu {
-    right: -24px;
+    right: 0;
     top: 0;
     position: absolute;
   }
 }
-.l-header_underline {
 
-    &:after {
-      content: '';
-      display: block;
-      width: auto;
-      height: 1px;
-      opacity: 0.1;
-      background-color: $primary-dark-color;
-      margin-right: auto;
-      margin-left: auto;
-    }
+.l-header_underline {
+  &:after {
+    content: '';
+    display: block;
+    width: auto;
+    height: 1px;
+    opacity: 0.1;
+    background-color: $primary-dark-color;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
