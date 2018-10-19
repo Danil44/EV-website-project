@@ -1,29 +1,13 @@
-@media (min-width: 1490px) {
-  .icon-section--list {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 1130px;
-  }
-
-  .icon-section-item {
-    width: 292px;
-    height: 126px;
-    padding-top: 5px;
-  }
-
+@media (min-width: 1200px) {
   .icon-section-item:nth-child(n + 3) {
     padding-top: 5px;
   }
 
-  .icon-section-item {
-    border: none;
-  }
-
-  .icon-section-item:nth-child(-n+2) {
+  .icon-section__item:nth-child(-n+2) {
     border-bottom: none;
   }
 
-  .icon-section-item:not(:last-child) {
+  .icon-section__item:not(:last-child) {
     border-right: 1px solid rgb(241, 241, 241);
   }
 
@@ -31,7 +15,7 @@
     margin-bottom: 25px;
   }
 
-  .icon-section-item__name{
+  .icon-section-item__name {
     text-align: center;
     font-size: 20px;
     line-height: 30px;

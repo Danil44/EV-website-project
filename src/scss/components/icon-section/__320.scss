@@ -1,42 +1,39 @@
-.icon-section {
-  padding: 50px 0;
-}
-
 .icon-section--list {
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  padding-top: 142px;
+  padding-bottom: 76px;
   align-items: center;
-
-  @media (max-width: 1489px) {
-    max-width: 600px;
-  }
 }
 
-.icon-section-item__name {
-  margin: 0 auto;
-  font-family: "Exo 2", Arial, sans-serif;
-  font-size: 20px;
+.icon-section__name {
+  font-family: $primary-font-stack;
+  font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #2e2e2e;
+  color: $secondary-dark-color;
   text-align: center;
 }
 
-.icon-section-item__name:hover,
-.icon-section-item__name:focus {
+.icon-section__name:focus,
+.icon-section__name:hover {
   cursor: pointer;
 }
 
-.icon-section-item {
-  align-content: center;
-  padding-top: 20px;
+.icon-section__item {
+  position: relative;
+  @media (max-width: 767px) {
+    &:not(:last-child) {
+      padding-bottom: 100px;
+    }
+  }
 }
 
-.icon-section-item__svg {
-  display: block;
-  fill: #18bed0;
-  text-align: center;
-  height: 75px;
-  margin-bottom: 10px;
+.feauter-icons {
+  fill: $icon-section-fill;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translate(35px,-72px);
 }

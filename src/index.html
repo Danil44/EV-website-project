@@ -66,62 +66,42 @@
     <!-- HOME-PAGE -->
 
     <!-- NIKITA/banner-section -->
-    <section class="banner-section">
-      <div class="banner-section--background">
+    <section class="banner-section--background">
+      <div class="l-banner__box">
         <h1 class="banner-section__logo">EV HUB</h1>
         <p class="banner-section__text">Форум для любителей электротранспорта</p>
-        <a class="banner-section__btn " href="#">Перейти на форум</a>
+        <button class="banner-section__btn" href="#">Перейти на форум</button>
       </div>
     </section>
 
     <!-- MARINA/icons-section -->
-    <section class="icon-section">
+    <section class="icon-section container">
 
       <ul class="icon-section--list">
-        <li class="icon-section-item">
-          <figure class="icon-section-item__wrp">
-            <a href="#">
-              <svg class="icon-section-item__svg">
-                <use href="./img/icon-section/conversation.svg#conversation"></use>
-              </svg>
-            </a>
-          </figure>
-          <p class="icon-section-item__name"> Задавайте вопросы</p>
+        <li class="icon-section__item icon-section__item_question">
+          <svg width="71px" height="70px" class="feauter-icons">
+            <use href="img/icon-section/symbol-defs.svg#icon-conversation"></use>
+          </svg>
+          <p class="icon-section__name">Задавайте вопросы</p>
         </li>
-
-        <li class="icon-section-item">
-          <figure class="icon-section-item__wrp">
-            <a href="#">
-              <svg class="icon-section-item__svg">
-                <use href="./img/icon-section/promotion.svg#promotion"></use>
-              </svg>
-            </a>
-          </figure>
-          <p class="icon-section-item__name"> Делитесь опытом</p>
+        <li class="icon-section__item icon-section__item_share">
+          <svg width="76px" height="71px" class="feauter-icons">
+            <use href="img/icon-section/symbol-defs.svg#icon-promotion"></use>
+          </svg>
+          <p class="icon-section__name">Делитесь опытом</p>
         </li>
-
-        <li class="icon-section-item">
-          <figure class="icon-section-item__wrp">
-            <a href="#">
-              <svg class="icon-section-item__svg icon-section-item__svg--last">
-                <use href="./img/icon-section/speech-bubble.svg#speech-bubble"></use>
-              </svg>
-            </a>
-          </figure>
-          <p class="icon-section-item__name"> Общайтесь </p>
+        <li class="icon-section__item icon-section__item_conversation">
+          <svg width="80px" height="71px" class="feauter-icons">
+            <use href="img/icon-section/symbol-defs.svg#icon-speech-bubble"></use>
+          </svg>
+          <p class="icon-section__name">Общайтесь</p>
         </li>
-
-        <li class="icon-section-item">
-          <figure class="icon-section-item__wrp">
-            <a href="#">
-              <svg class="icon-section-item__svg icon-section-item__svg--last">
-                <use href="./img/icon-section/find-friends.svg#find-friends"></use>
-              </svg>
-            </a>
-          </figure>
-          <p class="icon-section-item__name "> Ищите друзей </p>
+        <li class="icon-section__item icon-section__item_friends">
+          <svg width="71px" height="70px" class="feauter-icons">
+            <use href="img/icon-section/symbol-defs.svg#icon-recruitment"></use>
+          </svg>
+          <p class="icon-section__name">Ищите друзей</p>
         </li>
-
       </ul>
 
 
@@ -130,42 +110,41 @@
 
     <!-- VLAD/theme-section -->
     <div class="background">
-      <section class="forum">
-        <h3 class="forum__title">Темы форума</h3>
+      <section class="forum container">
+        <h2 class="forum__title">Темы форума</h2>
         <ul class="forum__item">
           <li class="forum__list">
-            <source srcset="img/">
-            <img class="forum__image" src="img/forum-image-1.png" alt="">
+            <img class="forum__image" srcset="img/theme-section/car.jpeg 1x, img/theme-section/car@2X.jpeg 2x" sizes="372w" src="img/theme-section/car.jpeg" alt="electric car picture" height="275px">
             <div class="forum__background"></div>
-            <div class="forum__inbox">Электрокары, гибриды</div>
+            <p class="forum__inbox">Электрокары, гибриды</p>
           </li>
           <li class="forum__list">
-            <img class="forum__image" src="img/forum-image-2.png" alt="">
+            <img class="forum__image" srcset="img/theme-section/charging.jpeg 1x, img/theme-section/charging@2X.jpeg 2x" sizes="372w" src="img/theme-section/charging.jpeg" alt="charging station picture" height="275px">
             <div class="forum__background"></div>
-            <div class="forum__inbox">Зарядные станции</div>
+            <p class="forum__inbox">Зарядные станции</p>
           </li>
           <li class="forum__list">
-            <img class="forum__image" src="img/forum-image-3.png" alt="">
+            <img class="forum__image" srcset="img/theme-section/bike.jpeg 1x, img/theme-section/bike@2X.jpeg 2x" sizes="372w" src="img/theme-section/bike.jpeg" alt="electric bike picture" height="275px">
             <div class="forum__background"></div>
-            <div class="forum__inbox">Электровелосипеды</div>
+            <p class="forum__inbox">Электровелосипеды</p>
           </li>
           <li class="forum__list">
-            <img class="forum__image" src="img/forum-image-4.png" alt="">
+            <img class="forum__image" srcset="img/theme-section/sigway.jpeg 1x, img/theme-section/sigway@2X.jpeg 2x" sizes="372w" src="img/theme-section/sigway.jpeg" alt="sigway picture" height="275px">
             <div class="forum__background"></div>
-            <div class="forum__inbox">гироборды, сигвеи и др.</div>
+            <p class="forum__inbox">гироборды, сигвеи и др.</p>
           </li>
           <li class="forum__list">
-            <img class="forum__image" src="img/forum-image-5.png" alt="">
+            <img class="forum__image" srcset="img/theme-section/other.jpeg 1x, img/theme-section/other@2X.jpeg 2x" sizes="372w" src="img/theme-section/other.jpeg" alt="car light picture" height="275px">
             <div class="forum__background"></div>
-            <div class="forum__inbox">Другое</div>
+            <p class="forum__inbox">Другое</p>
           </li>
           <li class="forum__list">
-            <img class="forum__image" src="img/forum-image-6.png" alt="">
+            <img class="forum__image" srcset="img/theme-section/questions.jpeg 1x, img/theme-section/questions@2X.jpeg 2x" sizes="372w" src="img/theme-section/questions.jpeg" alt="night street picture" height="275px">
             <svg class="forum__icon" height="138px" width="138px">
               <use href="img/sprite.svg#icon-dialog-icon"></use>
             </svg>
             <div class="forum__background"></div>
-            <div class="forum__inbox">Частые вопросы</div>
+            <p class="forum__inbox">Частые вопросы</p>
           </li>
         </ul>
       </section>
@@ -173,14 +152,14 @@
 
 
     <!-- NINA/news-section -->
-    <section class="news-section">
+    <section class="news-section container">
       <div class="content-box">
         <h2 class="title section__title">Новости</h2>
         <ul class="news-section__list">
           <li class="news-section__item">
 
             <!-- <picture class="news-section __img">
-      <source media="(min-width: 1490px)" srcset="img/news-section/28_09_2018_tesla_model_s_p100d/tesla_model_s_p100d@1x.png, img/news-section/28_09_2018_tesla_model_s_p100d/tesla_model_s_p100d@2x.png 2x" sizes="475w">
+      <source media="(min-width: 1200px)" srcset="img/news-section/28_09_2018_tesla_model_s_p100d/tesla_model_s_p100d@1x.png, img/news-section/28_09_2018_tesla_model_s_p100d/tesla_model_s_p100d@2x.png 2x" sizes="475w">
         <img src="img/news-section/28_09_2018_tesla_model_s_p100d/tablet_tesla_model_s_p100d@1x.png" srcset="img/news-section/28_09_2018_tesla_model_s_p100d/tablet_tesla_model_s_p100d@2x.png 2x" alt="Tesla cars">
     </picture> -->
 
@@ -196,7 +175,7 @@
           </li>
           <li class="news-section__item">
             <picture class="news-section__img">
-              <source media="(min-width: 1490px )" srcset="img/news-section/13-09-2018__elon_musk_interview/elon_musk_interview@1X.png, img/news-section/13-09-2018__elon_musk_interview/elon_musk_interview@2X.png 2x" sizes="475w">
+              <source media="(min-width: 1200px)" srcset="img/news-section/13-09-2018__elon_musk_interview/elon_musk_interview@1X.png, img/news-section/13-09-2018__elon_musk_interview/elon_musk_interview@2X.png 2x" sizes="475w">
               <img src="img/news-section/13-09-2018__elon_musk_interview/tablet_elon_musk_interview@1X.png" srcset="img/news-section/13-09-2018__elon_musk_interview/tablet_elon_musk_interview@2X.png 2x" sizes="720w" alt="Elon Musk on Tesla Factory">
             </picture>
             <a href="#" class="news-section__link">
@@ -209,7 +188,7 @@
           </li>
           <li class="news-section__item">
             <picture class="news-section__img">
-              <source media="(min-width: 1490px)" srcset="img/news-section/13-09-2018__electric_vehicles_in_ukraine/electric_vehicles_in_ukraine@1X.png 1x, img/news-section/13-09-2018__electric_vehicles_in_ukraine/electric_vehicles_in_ukraine@2X.png 2x"
+              <source media="(min-width: 1200px)" srcset="img/news-section/13-09-2018__electric_vehicles_in_ukraine/electric_vehicles_in_ukraine@1X.png 1x, img/news-section/13-09-2018__electric_vehicles_in_ukraine/electric_vehicles_in_ukraine@2X.png 2x"
                 sizes="475w">
               <img src="img/news-section/13-09-2018__electric_vehicles_in_ukraine/tablet_electric_vehicles_in_ukraine@1X.png" srcset="img/news-section/13-09-2018__electric_vehicles_in_ukraine/tabler_electric_vehicles_in_ukraine@2X.png 2x" sizes="720w"
                 alt="Electric vehicle">
@@ -229,139 +208,122 @@
     <!-- CALENDAR-PAGE -->
 
     <!-- DANIL/calendar-list -->
-    <div class="l-calendar-content">
+    <div class="l-calendar-content container">
       <section class="calendar-section">
         <h2 class="c-section__title">Календарь мероприятий</h2>
-        <div class="l-calendar__content">
-          <div class="l-picture-box">
-            <picture>
-              <source srcset="img/tablet-first-eco.jpeg 723w, img/tablet-first-eco@2X.jpeg 2x" sizes="723px" media="(max-width:1489px)">
-              <img class="c-calendar__picture" srcset="img/first-eco-drive-min.jpeg 321w, img/first-eco-drive@2X.jpeg 2x" sizes="(min-width: 1489px) 321px" src="img/first-eco-drive-min.jpeg" alt="eco drive show car picture" height="218px">
-            </picture>
-          </div>
-          <div class="l-calendar__info">
-            <h3 class="c-calendar__title">Eco Drive Show</h3>
-            <p class="c-calendar__date">19.10.2018 | Киев</p>
-            <p class="c-calendar__desc">Шоу электротранспорта на Крещатике!<br>
-              В программе шоу:<br>
-              <span class="c-calendar__desc--margin"> - Соревнования персонального электротранспорта;</span><br>
-              <span class="c-calendar__desc--margin">- Выставка электрокаров и гибридов, гиробордов, <span class="c-calendar__desc--margin">электровелосипедов
-                  и т.д.;</span></span><br>
-              <span class="c-calendar__desc--margin">- Розыгрыш и викторины;</span><br>
-              Самым важным событием станет установление рекорда Украины по наибольшему количеству электромобилей в
-              одном
-              месте!<br>
-              Более детально о мероприятии, регистрация на рекорд и др. информация на сайте организатора: <a href="#" class="c-organizer-link">ecodrive.ua</a></p>
-            <button class="c-calendar__button">Добавить в мой календарь</button>
-          </div>
-        </div>
-        <div class="l-calendar__content">
-          <div class="l-picture-box">
-            <picture>
-              <source srcset="img/tablet-second-eco.jpeg 723w, img/tablet-second-eco@2X.jpeg 2x" sizes="723px" media="(max-width:1489px)">
-              <img class="c-calendar__picture" srcset="img/second-eco-drive-min.jpeg 321w, img/second-eco-drive@2X.jpeg 642w" sizes="321px" src="img/second-eco-drive-min.jpeg" alt="eco drive show car picture" height="218px">
-            </picture>
-          </div>
-          <div class="l-calendar__info">
-            <h3 class="c-calendar__title">Eco Drive Show</h3>
-            <p class="c-calendar__date">19.10.2018 | Киев</p>
-            <p class="c-calendar__desc">По своей сути рыбатекст является альтернативой традиционному lorem ipsum,
-              который
-              вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
-              рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских
-              времен.</p>
-            <button class="c-calendar__button">Добавить в мой календарь</button>
-          </div>
-        </div>
-        <div class="l-calendar__content">
-          <div class="l-picture-box">
-            <picture>
-              <source srcset="img/tablet-third-eco.jpeg 723w, img/tablet-third-eco@2X.jpeg 2x" sizes="723px" media="(max-width:1489px)">
-              <img class="c-calendar__picture" srcset="img/third-eco-drive-min.jpeg 321w, img/third-eco-drive@2X.jpeg 642w" sizes="321px" src="img/third-eco-drive-min.jpeg" alt="eco drive show car picture" height="218px">
-            </picture>
-          </div>
-          <div class="l-calendar__info">
-            <h3 class="c-calendar__title">Eco Drive Show</h3>
-            <p class="c-calendar__date">25.10.2018 | Киев</p>
-            <p class="c-calendar__desc">Повседневная практика показывает, что укрепление и развитие структуры
-              представляет собой интересный эксперимент проверки направлений прогрессивного развития. </p>
-            <button class="c-calendar__button">Добавить в мой календарь</button>
-          </div>
-        </div>
+        <ul class="l-calendar__list">
+          <li class="l-calendar__content">
+            <div class="l-picture-box">
+              <picture>
+                <source srcset="img/tablet-first-eco.jpeg 1x, img/tablet-first-eco@2X.jpeg 2x" sizes="723w" media="(max-width:1199px)">
+                <img class="c-calendar__picture" srcset="img/first-eco-drive-min.jpeg 1x, img/first-eco-drive@2X.jpeg 2x" sizes="321w" src="img/first-eco-drive-min.jpeg" alt="eco drive show car picture" height="218px">
+              </picture>
+            </div>
+            <div class="l-calendar__info">
+              <h3 class="c-calendar__title">Eco Drive Show</h3>
+              <p class="c-calendar__date">19.10.2018 | Киев</p>
+              <p class="c-calendar__desc">Шоу электротранспорта на Крещатике!<br>
+                В программе шоу:<br>
+                <span class="c-calendar__desc--margin"> - Соревнования персонального электротранспорта;</span><br>
+                <span class="c-calendar__desc--margin">- Выставка электрокаров и гибридов, гиробордов,<br>
+                  <span class="c-calendar__desc--margin">- Розыгрыш и викторины;</span><br>
+                  Самым важным событием станет установление рекорда Украины по наибольшему количеству электромобилей в
+                  одном
+                  месте!<br>
+                  Более детально о мероприятии, регистрация на рекорд и др. информация на сайте организатора: <a href="#" class="c-organizer-link">ecodrive.ua</a></p>
+              <button class="c-calendar__button">Добавить в мой календарь</button>
+            </div>
+          </li>
+          <li class="l-calendar__content">
+            <div class="l-picture-box">
+              <picture>
+                <source srcset="img/tablet-second-eco.jpeg 723w, img/tablet-second-eco@2X.jpeg 2x" sizes="723w" media="(max-width:1199px)">
+                <img class="c-calendar__picture" srcset="img/second-eco-drive-min.jpeg 1x, img/second-eco-drive@2X.jpeg 2x" sizes="321w" src="img/second-eco-drive-min.jpeg" alt="eco drive show car picture" height="218px">
+              </picture>
+            </div>
+            <div class="l-calendar__info">
+              <h3 class="c-calendar__title">Eco Drive Show</h3>
+              <p class="c-calendar__date">19.10.2018 | Киев</p>
+              <p class="c-calendar__desc">По своей сути рыбатекст является альтернативой традиционному lorem ipsum,
+                который
+                вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
+                рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских
+                времен.</p>
+              <button class="c-calendar__button">Добавить в мой календарь</button>
+            </div>
+          </li>
+          <li class="l-calendar__content">
+            <div class="l-picture-box">
+              <picture>
+                <source srcset="img/tablet-third-eco.jpeg 723w, img/tablet-third-eco@2X.jpeg 2x" sizes="723w" media="(max-width:1199px)">
+                <img class="c-calendar__picture" srcset="img/third-eco-drive-min.jpeg 1x, img/third-eco-drive@2X.jpeg 2x" sizes="321w" src="img/third-eco-drive-min.jpeg" alt="eco drive show car picture" height="218px">
+              </picture>
+            </div>
+            <div class="l-calendar__info">
+              <h3 class="c-calendar__title">Eco Drive Show</h3>
+              <p class="c-calendar__date">25.10.2018 | Киев</p>
+              <p class="c-calendar__desc">Повседневная практика показывает, что укрепление и развитие структуры
+                представляет собой интересный эксперимент проверки направлений прогрессивного развития. </p>
+              <button class="c-calendar__button">Добавить в мой календарь</button>
+            </div>
+          </li>
+        </ul>
       </section>
 
       <!-- DIMA/theme-list-section -->
-      <section class="l-theme-list">
-        <div class="l-theme-list_box">
+      <section class="l-theme">
+        <div class="l-theme_box">
           <h2 class="c-theme-list__name">Назначайте встречу на мероприятие</h2>
+          <ul class="c-theme__list">
+            <li class="l-theme-list__button">
+              <div class="c-button__button-name button__button-name_blue">
+                <p class="c-theme-list__text">электромобили / гибриды</p>
+              </div>
+            </li>
 
-          <div class="l-theme-list__button">
-            <div class="c-button__button-arrow button__button-arrow_blue">
-              <img src="img/right-arrow-light-blue.svg" class="c-position-arrow">
-            </div>
-            <div class="c-button__button-name button__button-name_blue">
-              <p class="c-theme-list__text">электромобили / гибриды</p>
-            </div>
-          </div>
+            <li class="l-theme-list__button">
+              <div class="c-button__button-name button__button-name_orange">
+                <p class="c-theme-list__text">зарядные станции</p>
+              </div>
+            </li>
 
-          <div class="l-theme-list__button">
-            <div class="c-button__button-arrow button__button-arrow_orange">
-              <img src="img/right-arrow-orange.svg" class="c-position-arrow">
-            </div>
-            <div class="c-button__button-name button__button-name_orange">
-              <p class="c-theme-list__text">зарядные станции</p>
-            </div>
-          </div>
+            <li class="l-theme-list__button">
+              <div class="c-button__button-name button__button-name_light-blue">
+                <p class="c-theme-list__text">электровелосипеды</p>
+              </div>
+            </li>
 
-          <div class="l-theme-list__button">
-            <div class="c-button__button-arrow button__button-arrow_light-blue">
-              <img src="img/right-arrow-acva.svg" class="c-position-arrow">
-            </div>
-            <div class="c-button__button-name button__button-name_light-blue">
-              <p class="c-theme-list__text">электровелосипеды</p>
-            </div>
-          </div>
+            <li class="l-theme-list__button">
+              <div class="c-button__button-name button__button-name_purple">
+                <p class="c-theme-list__text">гироборды, сигвеи, моноколеса</p>
+              </div>
+            </li>
 
-          <div class="l-theme-list__button">
-            <div class="c-button__button-arrow button__button-arrow_purple">
-              <img src="img/right-arrow-purple.svg" stroke-width="10" class="c-position-arrow">
-            </div>
-            <div class="c-button__button-name button__button-name_purple">
-              <p class="c-theme-list__text">гироборды, сигвеи, моноколеса</p>
-            </div>
-          </div>
+            <li class="l-theme-list__button">
+              <div class="c-button__button-name button__button-name_red">
+                <p class="c-theme-list__text">другая тема</p>
+              </div>
+            </li>
 
-          <div class="l-theme-list__button">
-            <div class="c-button__button-arrow button__button-arrow_red">
-              <img src="img/right-arrow-red.svg" class="c-position-arrow">
-            </div>
-            <div class="c-button__button-name button__button-name_red">
-              <p class="c-theme-list__text">другая тема</p>
-            </div>
-          </div>
-
-          <div class="l-theme-list__button">
-            <div class="c-button__button-arrow button__button-arrow_green">
-              <img src="img/right-arrow-green.svg" class="c-position-arrow">
-            </div>
-            <div class="c-button__button-name button__button-name_green">
-              <p class="c-theme-list__text">частозадаваимые вопросы</p>
-            </div>
-          </div>
+            <li class="l-theme-list__button">
+              <div class="c-button__button-name button__button-name_green">
+                <p class="c-theme-list__text">частозадаваимые вопросы</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </div>
   </main>
 
+
+  <!-- EVGENIY/FOOTER -->
   <footer class="footer">
-    <!-- EVGENIY/FOOTER -->
-    <div class="footer-logo">ev hub</div>
-    <div>
-      <ul class="footer-social">
-        <li class="footer-social__item"><a class="footer-social__link" href="#">facebook</a></li>
-        <li class="footer-social__item"><a class="footer-social__link" href="#">twitter</a></li>
-        <li class="footer-social__item"><a class="footer-social__link" href="#">instagram</a></li>
-      </ul>
-    </div>
+    <a class="footer-logo">ev hub</a>
+    <ul class="footer-social">
+      <li class="footer-social__item"><a class="footer-social__link" href="#">facebook</a></li>
+      <li class="footer-social__item"><a class="footer-social__link" href="#">twitter</a></li>
+      <li class="footer-social__item"><a class="footer-social__link" href="#">instagram</a></li>
+    </ul>
     <p class="footer-copyright">@ All Rights Reserved 2018</p>
   </footer>
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
