@@ -1,6 +1,6 @@
 @media (min-width: 1200px) {
   .c-menu__link {
-    font-size: 13px;
+    font-size: 12px;
     letter-spacing: 1px;
     font-weight: bold;
     color: $header-text-color;
@@ -19,7 +19,6 @@
 
   .c-menu__link_desktop {
     text-transform: none;
-    font-size: 15px;
     color: $entry-color;
   }
 }
