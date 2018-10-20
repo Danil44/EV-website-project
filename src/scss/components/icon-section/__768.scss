@@ -1,17 +1,17 @@
 @media (min-width: 768px) {
-  .icon-section--list {
+  .l-icon-section--list {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 48px;
+    padding-top: 24px;
   }
 
-  .feauter-icons {
-    transform: translate(35px, 39px);
+  .c-feauter-icon {
+    transform: translate(35px, 25px);
   }
 
-  .icon-section__item {
-    padding-top: 131px;
+  .c-icon-section__item {
+    padding-top: 115px;
     width: 297px;
     @media (max-width: 1199px) {
       &:nth-child(-n+2) {
@@ -20,19 +20,19 @@
     }
   }
   @media (max-width: 1199px) {
-    .icon-section__item:not(:nth-child(even)) {
+    .c-icon-section__item:not(:nth-child(even)) {
       border-right: 1px rgb(241, 241, 241) solid;
     }
 
-    .icon-section__item:nth-child(-n + 2) {
+    .c-icon-section__item:nth-child(-n + 2) {
       border-bottom: 1px rgb(241, 241, 241) solid;
     }
 
-    .icon-section__item:nth-child(n + 3) {}
+    .c-icon-section__item:nth-child(n + 3) {}
   }
 
-  .icon-section__name {
-    font-size: 18px;
+  .c-icon__name {
+    font-size: 17px;
     line-height: 18px;
     text-align: center;
   }

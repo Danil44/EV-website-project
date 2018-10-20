@@ -1,26 +1,22 @@
-.icon-section--list {
+.l-icon-section--list {
   display: flex;
   flex-direction: column;
   padding-top: 142px;
-  padding-bottom: 76px;
+  padding-bottom: 40.75px;
   align-items: center;
 }
 
-.icon-section__name {
+.c-icon__name {
   font-family: $primary-font-stack;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
   color: $secondary-dark-color;
   text-align: center;
-}
-
-.icon-section__name:focus,
-.icon-section__name:hover {
   cursor: pointer;
 }
 
-.icon-section__item {
+.c-icon-section__item {
   position: relative;
   @media (max-width: 767px) {
     &:not(:last-child) {
@@ -29,11 +25,12 @@
   }
 }
 
-.feauter-icons {
+.c-feauter-icon {
   fill: $icon-section-fill;
   display: inline-block;
   position: absolute;
   top: 0;
   right: 50%;
   transform: translate(35px,-72px);
+  cursor: pointer;
 }

@@ -1,40 +1,35 @@
 @media (min-width: 1200px) {
-  .forum {
-    padding-bottom: 95px;
-    padding-top: 90px;
-  }
-
   .forum__title {
-    margin-bottom: 97px;
+    margin-bottom: 62px;
     font-size: 40px;
   }
 
-  .forum__item {
+  .l-forum__list {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
 
-  .forum__inbox {
+  .c-forum__inbox {
     font-size: 16px;
     width: 349px;
     height: 252px;
   }
 
-  .forum__list {
+  .c-forum__item {
     margin-bottom: 30px;
+
+    &:after {
+      width: 372px;
+      height: 275px;
+    }
 
     &:nth-child(n+4) {
       margin-bottom: 0;
     }
   }
 
-  .forum__image {
-    width: 372px;
-    height: 275px;
-  }
-
-  .forum__background {
+  .c-forum__image {
     width: 372px;
     height: 275px;
   }

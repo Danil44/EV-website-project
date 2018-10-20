@@ -1,7 +1,5 @@
-.banner-section--background {
+.c-banner--background {
   background-image: url("../img/banner-bgrnd_772x580.jpg");
-  min-height: 315px;
-  max-height: 580px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right center;
@@ -25,16 +23,18 @@
   }
 }
 
-.banner-section__logo {
+.c-banner__logo {
   font-family: $logo-font-stack;
   font-weight: bold;
   font-size: 50px;
   color: $primary-white-color;
   text-align: center;
   text-transform: uppercase;
+  display: inline-block;
+  cursor: pointer;
 }
 
-.banner-section__text {
+.c-banner__text {
   font-family: $primary-font-stack;
   color: $primary-white-color;
   font-size: 22px;
@@ -44,7 +44,7 @@
   margin-bottom: 37px;
 }
 
-.banner-section__btn {
+.c-banner__btn {
   font-family: $primary-font-stack;
   font-size: 13px;
   font-weight: 600;
@@ -53,7 +53,7 @@
   cursor: pointer;
   background-color: $banner-button-color;
   border: 3px solid $banner-button-color;
-  padding: 16px 57px 16px 15px;
+  padding: 14px 40px 14px 10px;
   letter-spacing: 1.5px;
   transition: 0.2s linear;
 

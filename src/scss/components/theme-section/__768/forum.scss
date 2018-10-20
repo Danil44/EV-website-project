@@ -1,21 +1,16 @@
 @media (min-width: 768px) {
-  .forum {
-    padding-bottom: 80px;
-    padding-top: 75px;
-  }
-
-  .forum__title {
-    margin-bottom: 80px;
+  .c-forum__title {
+    margin-bottom: 62px;
     font-size: 30px;
   }
 
-  .forum__item {
+  .l-forum__list {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
-  .forum__list {
+  .c-forum__item {
     margin-bottom: 17px;
 
     &:nth-child(n+5) {
@@ -23,19 +18,19 @@
     }
   }
 
-  .forum__image {
+  .c-forum__item:after {
     width: 352px;
     height: 260px;
   }
 
-  .forum__inbox {
+  .c-forum__image {
+    width: 352px;
+    height: 260px;
+  }
+
+  .c-forum__inbox {
     width: 332px;
     height: 240px;
     font-size: 14px;
-  }
-
-  .forum__background {
-    width: 352px;
-    height: 260px;
   }
 }

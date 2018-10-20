@@ -5,7 +5,7 @@
     width: 213px;
 
     &:first-child {
-      padding-top: 36px;
+      padding-top: 31px;
     }
 
     &::after {
@@ -19,7 +19,7 @@
     }
 
     &:last-child {
-      padding-bottom: 166px;
+      padding-bottom: 30px;
     }
 
     .c-menu__item:last-of-type::after {
