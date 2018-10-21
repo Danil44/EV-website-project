@@ -25,11 +25,6 @@
   cursor: pointer;
   z-index: 50;
 }
-@media(min-width: 1200px) {
-  .up-button_calendar {
-    display: none;
-  }
-}
 
 .c-footer-logo {
   color: $footer-logo-color;
