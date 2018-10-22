@@ -8,7 +8,6 @@
     transition: 0.2s linear;
 
     &:hover {
-      transition: 0.2s linear;
       opacity: 1;
     }
 
@@ -20,5 +19,17 @@
   .c-menu__link_desktop {
     text-transform: none;
     color: $entry-color;
+  }
+
+  .c-menu__link_calendar,
+  .c-menu__link_forum {
+    color: $primary-dark-color;
+    font-weight: 800;
+    opacity: 0.8;
+  }
+
+  .c-menu__link_forum:hover {
+    color: $header-text-color;
+    opacity: 0.6;
   }
 }

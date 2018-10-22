@@ -376,7 +376,7 @@ a {
   line-height: 1px;
   content: " \2192 ";
   margin-left: 14px;
-  font-size: 35px;
+  font-size: 36px;
   z-index: 1;
 }
 
@@ -1353,7 +1353,6 @@ a {
 
   .c-menu__link:hover,
   .c-submenu__link:hover {
-    transition: 0.2s linear;
     opacity: 1;
   }
 
@@ -1365,6 +1364,18 @@ a {
   .c-menu__link_desktop {
     text-transform: none;
     color: #888888;
+  }
+
+  .c-menu__link_calendar,
+  .c-menu__link_forum {
+    color: #000000;
+    font-weight: 800;
+    opacity: 0.8;
+  }
+
+  .c-menu__link_forum:hover {
+    color: #222222;
+    opacity: 0.6;
   }
 
   .l-menu__list {
@@ -1409,6 +1420,10 @@ a {
   .forum__title {
     margin-bottom: 62px;
     font-size: 40px;
+  }
+
+  .tablet_br {
+    display: none;
   }
 
   .l-forum__list {
