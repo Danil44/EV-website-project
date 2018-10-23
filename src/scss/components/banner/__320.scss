@@ -13,9 +13,7 @@
   display: -ms-flex;
   display: flex;
   justify-content: center;
-  align-content: center;
   height: 584px;
-  max-width: 504px;
   flex-wrap: wrap;
   @media(max-width: 1199px) {
     margin-right: auto;
@@ -23,24 +21,27 @@
   }
 }
 
+.l-banner-content{
+  text-align: center;
+  padding-top: 144px;
+}
+
 .c-banner__logo {
   font-family: $logo-font-stack;
   font-weight: bold;
   font-size: 50px;
   color: $primary-white-color;
-  text-align: center;
   text-transform: uppercase;
   display: inline-block;
   cursor: pointer;
+  margin-bottom: 23px;
 }
 
 .c-banner__text {
   font-family: $primary-font-stack;
   color: $primary-white-color;
   font-size: 22px;
-  text-align: center;
   font-weight: 400;
-  padding-top: 23px;
   margin-bottom: 37px;
 }
 
@@ -66,7 +67,7 @@
   &::after {
     position: relative;
     left: 5px;
-    top: 0;
+    top: 1px;
     display: inline-block;
     line-height: 1px;
     content: "\2192";

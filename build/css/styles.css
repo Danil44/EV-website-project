@@ -321,10 +321,13 @@ a {
   display: -ms-flex;
   display: flex;
   justify-content: center;
-  align-content: center;
   height: 584px;
-  max-width: 504px;
   flex-wrap: wrap;
+}
+
+.l-banner-content {
+  text-align: center;
+  padding-top: 144px;
 }
 
 .c-banner__logo {
@@ -332,19 +335,17 @@ a {
   font-weight: bold;
   font-size: 50px;
   color: #ffffff;
-  text-align: center;
   text-transform: uppercase;
   display: inline-block;
   cursor: pointer;
+  margin-bottom: 23px;
 }
 
 .c-banner__text {
   font-family: "Exo 2", sans-serif;
   color: #ffffff;
   font-size: 22px;
-  text-align: center;
   font-weight: 400;
-  padding-top: 23px;
   margin-bottom: 37px;
 }
 
@@ -371,7 +372,7 @@ a {
 .c-banner__btn::after {
   position: relative;
   left: 5px;
-  top: 0;
+  top: 1px;
   display: inline-block;
   line-height: 1px;
   content: "\2192";
@@ -986,8 +987,8 @@ a {
 }
 
 @media (min-width: 768px) {
-  .c-banner__text {
-    padding-top: 23px;
+  .l-banner-content {
+    padding-top: 170px;
   }
 
   .c-section__title {
@@ -1142,13 +1143,16 @@ a {
     margin-left: 165px;
   }
 
-  .c-banner__logo {
+  .l-banner-content {
     text-align: left;
+    padding-top: 247px;
+  }
+
+  .c-banner__logo {
     font-size: 70px;
   }
 
   .c-banner__text {
-    text-align: left;
     font-size: 23px;
     letter-spacing: 1.1px;
     margin-bottom: 44px;
