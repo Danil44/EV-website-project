@@ -24,4 +24,8 @@
     letter-spacing: 1.1px;
     margin-bottom: 44px;
   }
+
+  .c-banner__btn::after {
+    top: 4px;
+  }
 }

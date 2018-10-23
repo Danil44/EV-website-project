@@ -371,7 +371,7 @@ a {
 .c-banner__btn::after {
   position: relative;
   left: 5px;
-  top: 3px;
+  top: 2px;
   display: inline-block;
   line-height: 1px;
   content: "\2192";
@@ -1152,6 +1152,10 @@ a {
     font-size: 23px;
     letter-spacing: 1.1px;
     margin-bottom: 44px;
+  }
+
+  .c-banner__btn::after {
+    top: 4px;
   }
 
   .c-section__title {
