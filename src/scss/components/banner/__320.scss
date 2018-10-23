@@ -54,9 +54,11 @@
   cursor: pointer;
   background-color: $banner-button-color;
   border: 3px solid $banner-button-color;
-  padding: 14px 40px 15px 10px;
+  padding: 14px 68px 15px 10px;
   letter-spacing: 1.5px;
   transition: 0.2s linear;
+  position: relative;
+  display: inline-block;
 
   &:hover {
     background-color: transparent;
@@ -65,13 +67,12 @@
   }
 
   &::after {
-    position: relative;
-    left: 5px;
-    top: 4px;
+    position: absolute;
+    top: -50%;
+    right: 0;
+    transform: translate(-50%, 51%);
     display: inline-block;
-    line-height: 1px;
     content: "\2192";
-    margin-left: 14px;
     font-size: 36px;
     z-index: 1;
   }
