@@ -370,17 +370,19 @@ a {
 
 .c-banner__btn:hover {
   background-color: transparent;
-  border-radius: 25px;
-  color: #ff6c45;
 }
 
 .c-banner__btn::after {
+  content: '';
+  background-image: url("../../../img/right-arrow-white.svg");
+  background-repeat: no-repeat;
+  -webkit-transform: translate(-65%, 82%);
+  transform: translate(-65%, 82%);
   position: absolute;
-  top: -48%;
+  width: 37px;
+  height: 18px;
+  top: 0;
   right: 0;
-  -webkit-transform: translate(-50%, 51%);
-  transform: translate(-50%, 51%);
-  content: "\2192";
   font-size: 36px;
   z-index: 1;
 }

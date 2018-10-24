@@ -63,25 +63,25 @@
   border: 3px solid $banner-button-color;
   letter-spacing: 1.5px;
   transition: 0.2s linear;
-
-  @media (max-width: 1199px){
+  @media (max-width: 1199px) {
     margin-right: auto;
     margin-left: auto;
   }
 
-
   &:hover {
     background-color: transparent;
-    border-radius: 25px;
-    color: $banner-button-color;
   }
 
   &::after {
+    content: '';
+    background-image: url("../../../img/right-arrow-white.svg");
+    background-repeat: no-repeat;
+    transform: translate(-65%, 82%);
     position: absolute;
-    top: -48%;
+    width: 37px;
+    height: 18px;
+    top: 0;
     right: 0;
-    transform: translate(-50%, 51%);
-    content: "\2192";
     font-size: 36px;
     z-index: 1;
   }
