@@ -374,7 +374,8 @@ a {
 
 .c-banner__btn::after {
   content: '';
-  background-image: url("../../../img/right-arrow-white.svg");
+  display: inline-block;
+  background-image: url("../img/right-arrow-white.svg");
   background-repeat: no-repeat;
   -webkit-transform: translate(-65%, 82%);
   transform: translate(-65%, 82%);

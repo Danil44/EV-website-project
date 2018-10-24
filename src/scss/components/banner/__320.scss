@@ -74,6 +74,7 @@
 
   &::after {
     content: '';
+    display: inline-block;
     background-image: url("../img/right-arrow-white.svg");
     background-repeat: no-repeat;
     transform: translate(-65%, 82%);
