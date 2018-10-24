@@ -16,17 +16,11 @@
 
   .c-forum__inbox {
     font-size: 16px;
-    width: 349px;
-    height: 252px;
+
   }
 
   .c-forum__item {
     margin-bottom: 30px;
-
-    &:after {
-      width: 372px;
-      height: 275px;
-    }
 
     &:nth-child(n+4) {
       margin-bottom: 0;

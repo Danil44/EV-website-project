@@ -46,6 +46,13 @@
 }
 
 .c-banner__btn {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  align-items: center;
+  width: 234px;
+  position: relative;
+  height: 48px;
   font-family: $primary-font-stack;
   font-size: 13px;
   font-weight: 600;
@@ -54,11 +61,9 @@
   cursor: pointer;
   background-color: $banner-button-color;
   border: 3px solid $banner-button-color;
-  padding: 14px 68px 15px 10px;
   letter-spacing: 1.5px;
   transition: 0.2s linear;
-  position: relative;
-  display: inline-block;
+
 
   &:hover {
     background-color: transparent;
@@ -68,10 +73,9 @@
 
   &::after {
     position: absolute;
-    top: -50%;
+    top: -48%;
     right: 0;
     transform: translate(-50%, 51%);
-    display: inline-block;
     content: "\2192";
     font-size: 36px;
     z-index: 1;

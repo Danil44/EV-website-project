@@ -29,29 +29,16 @@
   cursor: pointer;
   transition: 0.2s linear;
 
-  &:after {
-    content: '';
-    display: block;
-    position: absolute;
-    background: linear-gradient(to top, rgb(0, 0, 0,), rgb(42, 42, 42,));
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 250px;
-    opacity: 0.75;
-    transition: 0.2s linear;
+  &:hover {
+    box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.45);
   }
 
-  &:hover {
-    box-shadow: 0 7px 24px 0 rgba(0, 0, 0, 0.18);
+  &:hover .c-forum__inbox {
+    background-color: rgba(0, 0, 0, 0);
   }
 
   &:nth-child(n+6) {
     margin-bottom: 0;
-  }
-
-  &:hover:after {
-    opacity: 0;
   }
 }
 @media(max-width:767px) {
@@ -63,21 +50,27 @@
 }
 
 .c-forum__inbox {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  border: 1px white solid;
-  width: 280px;
-  height: 230px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
   color: $primary-white-color;
+  background-color: rgba(0, 0, 0, 0.72);
+  outline: 1px solid $primary-white-color;
+  outline-offset: -13px;
   text-align: center;
-  line-height: 230px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600;
   font-family: $primary-font-stack;
-  z-index: 1;
+  transition: 0.2s linear;
 }
 
 .c-forum__icon {
