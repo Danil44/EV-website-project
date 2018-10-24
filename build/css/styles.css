@@ -649,7 +649,7 @@ a {
 .l-menu-toggle {
   position: absolute;
   top: 36px;
-  right: 22px;
+  right: 15px;
   cursor: pointer;
 }
 
@@ -1476,6 +1476,11 @@ a {
     margin-left: auto;
   }
 
+  .c-banner__btn {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .l-news__list {
     flex-direction: column;
     align-items: center;
@@ -1524,7 +1529,7 @@ a {
     width: 300px;
     position: absolute;
     top: 0;
-    right: 0;
+    right: -5px;
     height: 0;
     overflow: hidden;
     z-index: 2;

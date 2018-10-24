@@ -64,6 +64,11 @@
   letter-spacing: 1.5px;
   transition: 0.2s linear;
 
+  @media (max-width: 1199px){
+    margin-right: auto;
+    margin-left: auto;
+  }
+
 
   &:hover {
     background-color: transparent;
