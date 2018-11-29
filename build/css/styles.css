@@ -954,6 +954,11 @@ a {
   margin: 35.75px auto 62px;
 }
 
+.c-usefull__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .c-usefull__desc,
 .c-services-links {
   font-size: 15px;
@@ -1747,6 +1752,15 @@ a {
     max-width: 300px;
     height: 250px;
   }
+
+  .c-usefull__picture {
+    width: 215px;
+    margin-right: 14px;
+  }
+
+  .l-usefull__info {
+    width: 260px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
@@ -1760,6 +1774,23 @@ a {
 
   .c-icon-section__item:nth-child(-n + 2) {
     border-bottom: 1px #f1f1f1 solid;
+  }
+
+  .c-usefull__picture {
+    max-width: none;
+    margin-right: 32px;
+  }
+
+  .l-usefull__info {
+    width: 320px;
+    position: relative;
+  }
+
+  .google-play__btn {
+    width: 145px;
+    position: absolute;
+    right: 0;
+    bottom: 10%;
   }
 }
 
