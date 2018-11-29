@@ -16,7 +16,7 @@
   <meta name="msapplication-TileColor" content="#000000">
   <meta name="format-detection" content="telephone=no">
 
-  <title>EV HUB Календарь</title>
+  <title>EV HUB Полезные ссылки</title>
   <link rel="stylesheet" href="css/styles.min.css">
 </head>
 
@@ -24,9 +24,9 @@
   <div class="l-header_underline container">
     <header class="l-header">
       <a href="home-page.html" class="c-logo">Ev hub</a>
-      <a class="l-menu-toggle">
-        <span class="c-burger"></span>
-      </a>
+        <a class="l-menu-toggle">
+          <span class="c-burger"></span>
+        </a>
       <nav class="l-menu">
         <ul class="l-menu__list">
           <li class="c-menu__item">
@@ -41,13 +41,13 @@
             </ul>
           </li>
           <li class="c-menu__item">
-            <a href="calendar-page.html" class="c-menu__link c-menu__link_calendar"> Календарь мероприятий</a>
+            <a href="calendar-page.html" class="c-menu__link"> Календарь мероприятий</a>
           </li>
           <li class="c-menu__item">
             <a href="#" class="c-menu__link"> Новости</a>
           </li>
           <li class="c-menu__item">
-            <a href="usefull-links.html" class="c-menu__link"> Полезные ссылки</a>
+            <a href="usefull-links.html" class="c-menu__link c-menu__link_usefull-links"> Полезные ссылки</a>
           </li>
           <li class="c-menu__item">
             <a href="#" class="c-menu__link c-menu__link_desktop"> Вход</a>
@@ -63,66 +63,54 @@
     </header>
   </div>
   <main class="main">
-    <!-- CALENDAR-PAGE -->
+    <!-- USEFULL-LINKS-PAGE -->
 
-    <!-- calendar-list -->
-    <div class="l-calendar-wrapper container">
-      <section class="calendar-section">
-        <h2 class="c-section__title">Календарь мероприятий</h2>
-        <ul class="l-calendar__list">
-          <li class="c-calendar__content">
+    <!-- USEFULL-list -->
+    <div class="l-usefull-wrapper container">
+      <section class="usefull-section">
+        <h2 class="c-section__title">Полезные ссылки</h2>
+        <ul class="l-usefull__list">
+          <li class="c-usefull__content">
             <div class="l-picture-box">
-              <picture>
-                <source srcset="img/tablet-first-eco.jpeg 1x, img/tablet-first-eco@2X.jpeg 2x" sizes="723w" media="(max-width:1199px)">
-                <img class="c-calendar__picture" srcset="img/first-eco-drive-min.jpeg 1x, img/first-eco-drive@2X.jpeg 2x" sizes="321w" src="img/first-eco-drive-min.jpeg" alt="eco drive show car picture" height="218">
-              </picture>
+                <img class="c-usefull__picture" srcset="img/usefull-links/charging-car.jpeg 1x, img/usefull-links/charging-car@2X.jpeg 2x" sizes="321w" src="img/first-eco-drive-min.jpeg" alt="eco drive show car picture" height="218">
             </div>
-            <div class="l-calendar__info">
-              <h3 class="c-calendar__title">Eco Drive Show</h3>
-              <p class="c-calendar__date">19.10.2018 | Киев</p>
-              <p class="c-calendar__desc">Шоу электротранспорта на Крещатике!<br>
-                В программе шоу:<br>
-                <span class="c-calendar__desc--margin"> - Соревнования персонального электротранспорта;</span><br>
-                <span class="c-calendar__desc--margin">- Выставка электрокаров и гибридов, гиробордов,<br>
-                  <span class="c-calendar__desc--margin">- Розыгрыш и викторины;</span><br>
-                  Самым важным событием станет установление рекорда Украины по наибольшему количеству электромобилей в
-                  одном
-                  месте!<br>
-                  Более детально о мероприятии, регистрация на рекорд и др. информация на сайте организатора: <a href="#" class="c-organizer-link">ecodrive.ua</a></p>
-              <button class="c-calendar__button">Добавить в мой календарь</button>
+            <div class="l-usefull__info">
+              <h3 class="c-usefull__title">Карта зарядок</h3>
+              <p class="c-usefull__desc">Мы регулярно мониторим лучшие предложения по карте зарядок и на данный момент доверяем этому:
+                <a href="#" class="c-organizer-link">plugshare.com</a></p>
+              <a href='https://play.google.com/store/apps?hl=ru' target="blank" class="c-usefull__button">
+                <img src="img/usefull-links/Google-Play.png" class='google-play__btn' width="186" height="59" alt="Google Play link">
+              </a>
             </div>
           </li>
-          <li class="c-calendar__content">
+          <li class="c-usefull__content">
             <div class="l-picture-box">
-              <picture>
-                <source srcset="img/tablet-second-eco.jpeg 723w, img/tablet-second-eco@2X.jpeg 2x" sizes="723w" media="(max-width:1199px)">
-                <img class="c-calendar__picture" srcset="img/second-eco-drive-min.jpeg 1x, img/second-eco-drive@2X.jpeg 2x" sizes="321w" src="img/second-eco-drive-min.jpeg" alt="eco drive show car picture" height="218">
-              </picture>
+                <img class="c-usefull__picture" srcset="img/usefull-links/silver-car.jpeg 1x, img/usefull-links/silver-car@2X.jpeg 2x" sizes="321w" src="img/usefull-links/silver-car.jpeg" alt="eco drive show car picture" height="218">
             </div>
-            <div class="l-calendar__info">
-              <h3 class="c-calendar__title">Eco Drive Show</h3>
-              <p class="c-calendar__date">19.10.2018 | Киев</p>
-              <p class="c-calendar__desc">По своей сути рыбатекст является альтернативой традиционному lorem ipsum,
-                который
-                вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст
-                рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских
-                времен.</p>
-              <button class="c-calendar__button">Добавить в мой календарь</button>
+            <div class="l-usefull__info">
+              <h3 class="c-usefull__title">Техсервис для электромобилей / гибридов</h3>
+              <p class="c-usefull__desc">Мы регулярно мониторим лучшие предложения:
+                <a href="#" class="c-organizer-link">plugshare.com</a></p>
             </div>
           </li>
-          <li class="c-calendar__content">
+          <li class="c-usefull__content">
             <div class="l-picture-box">
-              <picture>
-                <source srcset="img/tablet-third-eco.jpeg 723w, img/tablet-third-eco@2X.jpeg 2x" sizes="723w" media="(max-width:1199px)">
-                <img class="c-calendar__picture" srcset="img/third-eco-drive-min.jpeg 1x, img/third-eco-drive@2X.jpeg 2x" sizes="321w" src="img/third-eco-drive-min.jpeg" alt="eco drive show car picture" height="218">
-              </picture>
+                <img class="c-usefull__picture" srcset="img/usefull-links/gyroboard.jpeg 1x, img/usefull-links/gyroboard@2X.jpeg 2x" sizes="321w" src="img/usefull-links/gyroboard.jpeg" alt="eco drive show car picture" height="218">
             </div>
-            <div class="l-calendar__info">
-              <h3 class="c-calendar__title">Eco Drive Show</h3>
-              <p class="c-calendar__date">25.10.2018 | Киев</p>
-              <p class="c-calendar__desc">Повседневная практика показывает, что укрепление и развитие структуры
-                представляет собой интересный эксперимент проверки направлений прогрессивного развития. </p>
-              <button class="c-calendar__button">Добавить в мой календарь</button>
+            <div class="l-usefull__info">
+              <h3 class="c-usefull__title">Ремонт гиробордов</h3>
+              <p class="c-usefull__desc">Мы регулярно мониторим лучшие предложения:
+                <a href="#" class="c-organizer-link">plugshare.com</a></p>
+            </div>
+          </li>
+          <li class="c-usefull__content">
+            <div class="l-picture-box">
+                <img class="c-usefull__picture" srcset="img/usefull-links/jaguar-car.jpeg 1x, img/usefull-links/jaguar-car@2X.jpeg 2x" sizes="321w" src="img/usefull-links/jaguar-car.jpeg" alt="eco drive show car picture" height="218">
+            </div>
+            <div class="l-usefull__info">
+              <h3 class="c-usefull__title">Электромобиль в кредит под 1%</h3>
+              <p class="c-usefull__desc">Мы регулярно мониторим лучшие предложения:
+                <a href="#" class="c-organizer-link">plugshare.com</a></p>
             </div>
           </li>
         </ul>
@@ -131,7 +119,8 @@
       <!-- theme-list-section -->
       <section class="l-theme">
         <div class="l-theme_box">
-          <h2 class="c-theme-list__name">Назначайте встречу на мероприятие</h2>
+          <h2 class="c-theme-list__name">Спрашивайте о полезных ресурсах 
+            на Форуме</h2>
           <ul class="c-theme__list">
             <li class="l-theme-list__button">
               <div class="c-button__button-name button__button-name_blue">
@@ -195,6 +184,7 @@
       $('.l-menu__list').toggleClass('menu__list--open', 600);
       $(this).toggleClass('open');
     })
+
     $('.c-menu__item').click(function() {
       $(this).children("ul").slideToggle();
     })

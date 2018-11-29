@@ -1,5 +1,5 @@
-@media (min-width:1200px) {
-  .c-calendar__content {
+@media (min-width:1199px) {
+  .c-usefull__content {
     max-width: 790px;
     display: flex;
     flex-wrap: wrap;
@@ -16,7 +16,7 @@
     }
   }
 
-  .c-calendar__content:last-of-type::after {
+  .c-usefull__content:last-of-type::after {
     content: '';
     margin: 0;
     height: 0;
