@@ -926,8 +926,8 @@ a {
 .c-usefull__title::after {
   content: "";
   display: block;
-  margin-top: 41px;
-  margin-bottom: 22px;
+  margin-top: 24px;
+  margin-bottom: 11px;
   width: 50px;
   height: 1px;
   background-color: #17becf;
@@ -954,7 +954,8 @@ a {
   margin: 35.75px auto 62px;
 }
 
-.c-usefull__desc {
+.c-usefull__desc,
+.c-services-links {
   font-size: 15px;
   line-height: 29px;
   color: #2e2e2e;
@@ -966,6 +967,11 @@ a {
   color: #17becf;
   cursor: pointer;
   text-decoration: underline;
+}
+
+.c-services-links {
+  font-weight: 600;
+  border-bottom: 1px solid #000000;
 }
 
 /* footer */
@@ -1216,7 +1222,8 @@ a {
     width: 720px;
   }
 
-  .c-usefull__desc {
+  .c-usefull__desc,
+  .c-services-links {
     font-size: 18px;
   }
 
@@ -1613,7 +1620,8 @@ a {
     width: 300px;
   }
 
-  .c-usefull__desc {
+  .c-usefull__desc,
+  .c-services-links {
     line-height: 30px;
     margin-bottom: 37px;
   }
