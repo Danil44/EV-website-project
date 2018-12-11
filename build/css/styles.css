@@ -1370,9 +1370,7 @@ a {
     color: #888888;
   }
 
-  .c-menu__link_calendar,
-  .c-menu__link_forum,
-  .c-menu__link_usefull-links {
+  .c-menu__link_visiting {
     color: #000000;
     font-weight: 800;
     opacity: 0.8;
